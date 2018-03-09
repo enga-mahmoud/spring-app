@@ -1,14 +1,14 @@
-package sa.mahmoud.TutorialTrial1;
+package sa.mahmoud.web.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @Controller
-public class ControllerService {
+public class IndexController {
 	
 	@RequestMapping("/")
-	public String doWork()
+	public String home()
 	{
 		
 		return "index";
